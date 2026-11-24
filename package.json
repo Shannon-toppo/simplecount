@@ -4,6 +4,15 @@
   "private": true,
   "type": "module",
   "description": "Browser extension that shows the character count of the selected text on the toolbar icon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shannon-toppo/simplecount.git"
+  },
+  "homepage": "https://github.com/Shannon-toppo/simplecount#readme",
+  "bugs": {
+    "url": "https://github.com/Shannon-toppo/simplecount/issues"
+  },
   "scripts": {
     "test": "node --test"
   }
