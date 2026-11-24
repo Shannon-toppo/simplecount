@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body data-mode="none">
+  <main>
+    <section id="count" class="count">
+      <div id="mode" class="mode"></div>
+      <div class="total"><span id="total">0</span> <span class="unit" data-i18n="unitChars">文字</span></div>
+      <dl class="breakdown">
+        <div><dt data-i18n="breakdownFullWidth">全角</dt><dd id="fullWidth">0</dd></div>
+        <div><dt data-i18n="breakdownHalfWidth">半角</dt><dd id="halfWidth">0</dd></div>
+        <div><dt data-i18n="breakdownSpaces">空白</dt><dd id="spaces">0</dd></div>
+        <div><dt data-i18n="breakdownNewlines">改行</dt><dd id="newlines">0</dd></div>
+        <div><dt data-i18n="breakdownExcluded">除外</dt><dd id="excluded">0</dd></div>
+      </dl>
+    </section>
+
+    <section id="unsupported" class="unsupported" hidden>
+      <p class="unsupported-title" data-i18n="popupUnsupported">このページでは使えません</p>
+      <p class="unsupported-hint" data-i18n="popupUnsupportedHint"></p>
+    </section>
+
+    <section class="toggles">
+      <label><input type="checkbox" id="halfWidthAsHalf"> <span data-i18n="optHalfWidthAsHalf"></span></label>
+      <label><input type="checkbox" id="excludeEnabled"> <span data-i18n="optExcludeEnabled"></span></label>
+      <label><input type="checkbox" id="includeSpaces"> <span data-i18n="optIncludeSpaces"></span></label>
+      <label><input type="checkbox" id="includeNewlines"> <span data-i18n="optIncludeNewlines"></span></label>
+    </section>
+
+    <footer>
+      <a href="#" id="openOptions" data-i18n="openOptions">設定を開く</a>
+    </footer>
+  </main>
+
+  <script src="../shared/count.js"></script>
+  <script src="../shared/settings.js"></script>
+  <script src="../shared/i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

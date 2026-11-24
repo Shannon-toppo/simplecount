@@ -1,0 +1,10 @@
+{
+  "name": "simplecount",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser extension that shows the character count of the selected text on the toolbar icon",
+  "scripts": {
+    "test": "node --test"
+  }
+}

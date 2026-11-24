@@ -1,0 +1,35 @@
+{
+  "extName": { "message": "SimpleCount" },
+  "extDescription": { "message": "選択中のテキストの文字数を拡張アイコンに表示します。" },
+
+  "popupModeSelection": { "message": "選択範囲" },
+  "popupModeField": { "message": "入力欄全体" },
+  "popupModeNone": { "message": "テキストを選択してください" },
+  "popupUnsupported": { "message": "このページでは使えません" },
+  "popupUnsupportedHint": { "message": "ブラウザの内部ページやPDFでは文字数を取得できません。拡張機能を入れる前から開いていたタブは、再読み込みすると使えるようになります。" },
+  "unitChars": { "message": "文字" },
+
+  "breakdownFullWidth": { "message": "全角" },
+  "breakdownHalfWidth": { "message": "半角" },
+  "breakdownSpaces": { "message": "空白" },
+  "breakdownNewlines": { "message": "改行" },
+  "breakdownExcluded": { "message": "除外" },
+
+  "optHalfWidthAsHalf": { "message": "半角は2文字で1文字と数える" },
+  "optExcludeEnabled": { "message": "除外文字を数えない" },
+  "optIncludeSpaces": { "message": "空白を含む" },
+  "optIncludeNewlines": { "message": "改行を含む" },
+  "openOptions": { "message": "設定を開く" },
+
+  "optionsTitle": { "message": "SimpleCount の設定" },
+  "optionsCountingHeading": { "message": "数え方" },
+  "optionsExcludedHeading": { "message": "除外文字" },
+  "optionsExcludedHelp": { "message": "ここに並べた文字は数えません(「除外文字を数えない」がオンのとき)。区切り文字は不要です。" },
+  "optionsExcludedCount": {
+    "message": "$COUNT$ 種類の文字を除外",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "optionsReset": { "message": "初期値に戻す" },
+  "optionsSaved": { "message": "保存しました" },
+  "optionsSaveError": { "message": "保存できませんでした" }
+}

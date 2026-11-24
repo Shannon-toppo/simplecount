@@ -1,0 +1,35 @@
+{
+  "extName": { "message": "SimpleCount" },
+  "extDescription": { "message": "Shows the character count of the selected text on the toolbar icon." },
+
+  "popupModeSelection": { "message": "Selection" },
+  "popupModeField": { "message": "Whole field" },
+  "popupModeNone": { "message": "Select some text" },
+  "popupUnsupported": { "message": "Not available on this page" },
+  "popupUnsupportedHint": { "message": "Browser internal pages and PDFs cannot be read. Tabs opened before the extension was installed start working after a reload." },
+  "unitChars": { "message": "chars" },
+
+  "breakdownFullWidth": { "message": "Full-width" },
+  "breakdownHalfWidth": { "message": "Half-width" },
+  "breakdownSpaces": { "message": "Spaces" },
+  "breakdownNewlines": { "message": "Line breaks" },
+  "breakdownExcluded": { "message": "Excluded" },
+
+  "optHalfWidthAsHalf": { "message": "Count two half-width chars as one" },
+  "optExcludeEnabled": { "message": "Skip excluded characters" },
+  "optIncludeSpaces": { "message": "Include spaces" },
+  "optIncludeNewlines": { "message": "Include line breaks" },
+  "openOptions": { "message": "Settings" },
+
+  "optionsTitle": { "message": "SimpleCount settings" },
+  "optionsCountingHeading": { "message": "Counting" },
+  "optionsExcludedHeading": { "message": "Excluded characters" },
+  "optionsExcludedHelp": { "message": "Characters listed here are not counted (when \"Skip excluded characters\" is on). No separators needed." },
+  "optionsExcludedCount": {
+    "message": "$COUNT$ distinct characters excluded",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "optionsReset": { "message": "Reset to default" },
+  "optionsSaved": { "message": "Saved" },
+  "optionsSaveError": { "message": "Could not save" }
+}

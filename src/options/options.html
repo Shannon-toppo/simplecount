@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title data-i18n="optionsTitle">SimpleCount の設定</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <main>
+    <h1 data-i18n="optionsTitle">SimpleCount の設定</h1>
+
+    <section>
+      <h2 data-i18n="optionsCountingHeading">数え方</h2>
+      <div class="toggles">
+        <label><input type="checkbox" id="halfWidthAsHalf"> <span data-i18n="optHalfWidthAsHalf"></span></label>
+        <label><input type="checkbox" id="excludeEnabled"> <span data-i18n="optExcludeEnabled"></span></label>
+        <label><input type="checkbox" id="includeSpaces"> <span data-i18n="optIncludeSpaces"></span></label>
+        <label><input type="checkbox" id="includeNewlines"> <span data-i18n="optIncludeNewlines"></span></label>
+      </div>
+    </section>
+
+    <section>
+      <h2 data-i18n="optionsExcludedHeading">除外文字</h2>
+      <p class="help" data-i18n="optionsExcludedHelp"></p>
+      <input type="text" id="excludedChars" maxlength="2000" spellcheck="false" autocomplete="off">
+      <div class="row">
+        <span id="excludedCount" class="muted"></span>
+        <span id="status" class="status" role="status"></span>
+        <button type="button" id="reset" data-i18n="optionsReset">初期値に戻す</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="../shared/count.js"></script>
+  <script src="../shared/settings.js"></script>
+  <script src="../shared/i18n.js"></script>
+  <script src="options.js"></script>
+</body>
+</html>
